@@ -1,0 +1,22 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "phases": {
+        "install": {
+          "cmds": [
+            "pip install -r requirements.txt"
+          ]
+        },
+        "start": {
+          "cmd": "python bot.py"
+        }
+      }
+    }
+  },
+  "variables": {
+    "BOT_TOKEN": "PASTE_YOUR_TOKEN_HERE",
+    "PDF_URL": "https://yuriy3133.github.io/ai-writer-kit/ai-writer-kit-guide-dark.pdf",
+    "ADMIN_CHAT_ID": ""
+  }
+}
